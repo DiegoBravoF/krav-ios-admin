@@ -1,0 +1,6 @@
+framework module Pods_kairosKMAdmin {
+  umbrella header "Pods-kairosKMAdmin-umbrella.h"
+
+  export *
+  module * { export * }
+}
