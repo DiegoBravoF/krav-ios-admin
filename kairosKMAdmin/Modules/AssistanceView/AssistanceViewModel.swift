@@ -23,7 +23,8 @@ class AssistanceViewModel: ObservableViewModel {
     }
 
     @Published var issues: [Issue] = []
-    @Published var students: [Student] = [Student.preview, Student.preview1, Student.preview,Student.preview, Student.preview, Student.preview,Student.preview, Student.preview, Student.preview]
+    @Published var students: [Student] = []
+//    @Published var students: [Student] = [Student.preview, Student.preview1, Student.preview,Student.preview, Student.preview, Student.preview,Student.preview, Student.preview, Student.preview]
     @Published var selectedDate: Date = Date().getOnlyDate() {
         didSet {
             getClasses()
